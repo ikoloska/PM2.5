@@ -11,15 +11,15 @@ The code requires:
 
 * Numpy
 
-`$ pip install numpy
+`$ pip install numpy`
 
 * Pandas
 
-`$ pip install pandas
+`$ pip install pandas`
 
 * Sklearn
 
-`$ pip install sklearn
+`$ pip install sklearn`
 
 ## Dataset
 The data set can be found on https://www.kaggle.com/cokastefan/pm10-pollution-data-in-skopje-from-2008-to-2018. However, it is quite sparse and requires some preprocessing. The measurements are aggregated based on geographical location (I've included an example). The PM2.5 particles are then divided into 20 equaly spaced categories.
